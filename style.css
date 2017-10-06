@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal {
+  background: #2ecc71;
+  height: 10px;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+}
+.header {
+  background-attachment: fixed;
+  background-image: url("img/img.png");
+  background-position: 15% 30%;
+  width: 1366px;
+  height: 602px;
+}
+
+.welcome {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+}
+.welcome__title {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Pacifico";
+  margin-bottom: 37px;
+}
+.welcome__title span {
+  color: #2ecc71;
+}
+.welcome__text p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Open Sans";
+  margin-bottom: 19px;
+  width: 360px;
+}
+
+.welcome__icons ul li {
+  display: inline;
+}
+.welcome__icons img {
+  height: 63px;
+  opacity: 0.5;
+  width: 63px;
+}
+.welcome__icons img:hover {
+  opacity: 1;
+}
+.welcome__icons .android {
+  content: url("img/android.png");
+}
+.welcome__icons .apple {
+  content: url("img/apple.png");
+}
+.welcome__icons .windows {
+  content: url("img/windows.png");
+}
+
+.header .product {
+  background-image: url("img/hand.png");
+  background-repeat: no-repeat;
+  height: 507px;
+  position: relative;
+  top: 95px;
+  left: 700px;
+  width: 439px;
+}
+.header .product .phonepic {
+  background-image: url("img/phonepic.png");
+  height: 245px;
+  position: absolute;
+  top: 67px;
+  left: 67px;
+  width: 163px;
+}
